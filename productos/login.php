@@ -86,6 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </div>
 
     <script>
+
     function addEyeIcon() {
         const toggleButton = document.getElementById('togglePassword');
         toggleButton.innerHTML = `

@@ -14,7 +14,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             VALUES (?, ?, ?, ?, ?, ?)";
 
     if ($stmt = $conexion->prepare($sql)) {
-        // Vincular los parámetros a la consulta
         $stmt->bind_param("siidss", $nombre_producto, $id_vendedor, $existencia, $id_medida, $valor_venta, $fecha_ultima_venta);
         
        
@@ -137,7 +136,6 @@ $conexion->close();
 </div>
 </div>
 
-    <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

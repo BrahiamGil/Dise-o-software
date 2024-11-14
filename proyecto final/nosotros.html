@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    
+    
+    
+</head>
+<body class="p-3 m-0 border-0 bd-example m-0 border-0" style="background-color: white;">
+
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+      <a class="navbar-brand" href="#">
+          <img src="img/cars.png" alt="Hoja de Vida" class="img-pequena">
+          TALLER DE CARRROS
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="#nosotros" href="nosotros.html">NOSOTROS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  SERVICIOS
+              </a>
+              <div class="dropdown-menu"  aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="http://localhost/Crud/productos/login.php">Pintura de Autos</a>
+                  <a class="dropdown-item" href="http://localhost/Crud/productos/login.php">Reparación de frenos</a>
+                  <a class="dropdown-item" href="http://localhost/Crud/productos/login.php">Cambio de aceite</a>
+                  <a class="dropdown-item" href="http://localhost/Crud/productos/login.php">Cambio de neumáticos</a>
+                  <a class="dropdown-item" href="http://localhost/Crud/productos/login.php">Diagnóstico electrónico</a>
+                  <a class="dropdown-item" href="http://localhost/Crud/productos/login.php">Reparación de suspensión</a>
+                  <a class="dropdown-item" href="http://localhost/Crud/productos/login.php">Alineación y balanceo</a>
+                  <a class="dropdown-item" href="http://localhost/Crud/productos/login.php">Cambio de baterías</a>
+                  <a class="dropdown-item" href="http://localhost/Crud/productos/login.php">Servicio de aire acondicionado</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Más información</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                CIUDADES
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Medellín</a>
+                <a class="dropdown-item" href="#">Bogotá</a>
+                <a class="dropdown-item" href="#">San Vicente Ferrer</a>
+                <a class="dropdown-item" href="#">Rionegro</a>
+                <a class="dropdown-item" href="#">Marinilla</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Más información</a>
+            </div>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="productos.html">PRODUCTOS</a>
+    </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formulario.html">REGISTRO DE CARRO</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" action="http://localhost/Crud/productos/login.php" method="get">
+            <button class="cita btn btn-primary" type="submit">Iniciar Sesión</button>
+        </form>
+        
+        <form class="form-inline my-2 my-lg-0 ms-3" action="http://localhost/Crud/productos/registrar_usuario.php" method="get">
+            <button class="cita btn btn-secondary" type="submit">Registrarse</button>
+        </form>
+        
+        
+        
+      </div>
+  </nav>
+  </div>
+
+
+ 
+
+  <div>
+    <h1>SOBRE NOSOTROS</h1>
+
+    <img src="img/nosotros.jpg" alt="">
+  
+    <h1>Contamos con los mejores Pintores expertos</h1>
+    
+    <div class="texto-centrado">
+        <p>Somos un taller 100% especializado en ofrecer servicios de pintura ubicados en San Vicente Ferrer, Antioquia Colombia. 
+        Ofrecemos un servicio garantizado. Estamos conformados por un equipo de apasionados por los automóviles, 
+        capacitados profesionalmente para dar a tu automóvil un servicio honesto, 
+        confiable y profesional. Contamos con un equipo altamente capacitado en las herramientas más modernas para 
+        realizar diagnósticos precisos y llevar a cabo reparaciones de alta calidad.</p>
+    </div>
+
+    <p style="background-color: white;">
+        <button class="btn btn-success btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+          <img src="img/whatsapp.png" alt="" style="width: 50px; height: 50px;">
+        </button>
+      </p>
+      <div style="min-height: 120px; background-color: white; display: flex; justify-content: center; align-items: center;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+          <div class="card card-body" style="width: 300px; background-color: white; text-align: center;">
+            Si tiene alguna solicitud especial, no dude en llamar al. +57 3225357000
+          </div>
+        </div>
+      </div>
+    
+
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Contacto</h5>
+                <pre>Teléfono: (322) 535-7000</pre>
+                <pre>Email: brahiamlucasio@gmail.com</pre>
+            </div>
+            <div class="col-md-4">
+                <h5>Enlaces</h5>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Redes Sociales</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/brahiam.gilgil/">Facebook</a></li>
+                    <li><a href="https://x.com/BrahiamGil3">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/brahiam_gil/">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
